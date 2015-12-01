@@ -27,8 +27,6 @@ import com.ipaulpro.afilechooser.FileChooserActivity;
 import com.ipaulpro.afilechooser.FileListFragment;
 
 public class DirListFrgmt extends FileListFragment {
-    private static final String TAG = "DirListFrgmt";
-
     public static DirListFrgmt newInstance(String path) {
         DirListFrgmt fragment = new DirListFrgmt();
         Bundle args = new Bundle();
