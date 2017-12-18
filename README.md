@@ -15,6 +15,13 @@ Step 2. Add the dependency
 
 ```gradle
 dependencies {
-	    compile 'com.github.aucd29:explorer:1.0.1'
+    compile 'com.github.aucd29:explorer:1.0.1'
+}
+```
+
+```gradle
+#kotlin
+dependencies {
+    compile 'com.github.aucd29:explorer:2.0.0'
 }
 ```
